@@ -1,0 +1,9 @@
+Feature: ItemsPurchased 
+In order to ViewItemsPurchased
+As a shopper
+I need to be logged in as a shopper and be on the MyProfile
+Scenario: Click "MyProfile"
+Given im on "localhost/Homepage"
+When the MyProfile page opens
+And i Click "ViewItemsPurchased"
+Then i see all the items i have ordered 
